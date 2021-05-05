@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.preloader {
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.3s ease;
+}
+.preloader.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+background: #888;
+border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+background: rgb(76, 29, 149);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+::selection {
+    background: rgba(76, 29, 149, 20%);
+}
+
+input:checked + svg {
+    display: block;
+}
+#ci1, #ci2, #ci3, #ci4 {
+    fill: #fff;
+    animation: flame 2s ease-out infinite;
+}
+#ci2 {
+    animation-delay: -.5s;
+}
+#ci3 {
+    animation-delay: -1s;
+}
+#ci4 {
+    animation-delay: -1.5s;
+}
+
+@keyframes flame {
+    from {
+        r:1px;
+        opacity:.8;
+    }
+    to {
+        r:28px;
+        opacity:0;
+    }
+}
+
+.animate-bg {
+    background: linear-gradient(270deg, #34d399, #3b82f6);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimatedBackground 7s ease infinite;
+    -moz-animation: AnimatedBackground 7s ease infinite;
+    -o-animation: AnimatedBackground 7s ease infinite;
+    animation: AnimatedBackground 7s ease infinite;
+}
+
+@-webkit-keyframes AnimatedBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimatedBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimatedBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimatedBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.scale-hover {
+    transform: scale(1);
+    transition: 0.3s ease;
+}
+.scale-hover:hover {
+    transform: scale(1.25);
+}
+
+input.auth:-webkit-autofill,
+input.auth:-webkit-autofill:hover, 
+input.auth:-webkit-autofill:focus, 
+input.auth:-webkit-autofill:active
+{
+ -webkit-box-shadow: 0 0 0 30px #171f29 inset !important;
+}
+input.auth:-webkit-autofill
+{
+ -webkit-text-fill-color: #ffffff !important;
+}
