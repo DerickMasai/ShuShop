@@ -1,3 +1,17 @@
+## ShuShop
+
+<img src="https://derickmasai.com/src/img/portfolio/github_shushop.png">
+
+
+ShuShop is an ecommerce store that simply loves shoes. It has been implemented with all the features a modern online store should have such as modular categories, search, cart functionality using a fork of [Crinsane's amazing open-source project](https://github.com/Crinsane/LaravelShoppingcart) (huge thank you for this), fully functional checkout that logs orders and transactions, and a dashboard for store users to wishlist items, track their orders and get informed of ongoing promotions via coupons while having the ability to change user info such as their address.
+
+
+<img src="https://derickmasai.com/src/img/portfolio/github_shushop_product.png">
+
+
+This is a fully open-source project anyone can use however they wish. I plan on continuing to improve the code here regularly so please feel free to leave me constructive critiques.
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -6,16 +20,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-
-## ShuShop
-
-<img src="https://derickmasai.com/src/img/portfolio/github_shushop.png">
-
-ShuShop is an ecommerce store that simply loves shoes. It has been implemented with all the features a modern online store should have such as modular categories, search, cart functionality using a fork of [Crinsane's amazing open-source project](https://github.com/Crinsane/LaravelShoppingcart) (huge thank you for this), fully functional checkout that logs orders and transactions, and a dashboard for store users to wishlist items, track their orders and get informed of ongoing promotions via coupons while having the ability to change user info such as their address.
-
-<img src="https://derickmasai.com/src/img/portfolio/github_shushop_product.png">
-
-This is a fully open-source project anyone can use however they wish. I plan on continuing to improve the code here regularly so please feel free to leave me constructive critiques.
 
 ## About Laravel
 
